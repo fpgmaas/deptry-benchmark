@@ -14,3 +14,10 @@ To create some benchmarks, run e.g.
 . ./script.sh 0.14.2 pypi
 . ./script.sh 0.15.0 test-pypi
 ```
+
+Then run
+
+```sh
+python prepare-plot.py
+python plot.py
+```
